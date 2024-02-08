@@ -18,8 +18,7 @@
 
 .img1  {
     display: flex;
-    
-    width: max-content;
+    object-fit: cover;
     height: 300px;
     border: 1px solid transparent;
 }
@@ -30,6 +29,8 @@
     height: 300px;
     border: 1px solid transparent;
 }
+
+
 @media (max-width: 380px) {
     a.navbar-brand {
         color: white;
