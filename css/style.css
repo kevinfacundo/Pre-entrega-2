@@ -4,32 +4,31 @@
     box-sizing: border-box;
 }
 
-.nav-item {
-    list-style: none;
+.body {
+    background: linear-gradient(to right bottom, #0f0f0f, rgb(60, 54, 63));
+    color: azure;
 }
 
-.section {
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleInterval{
+    width: 70%;
+}
+
+
+.d-block {
+    height: 400px;
+    width: 100%;
+}
+
+.main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0px;
-    margin: 0px;
-    gap: 10px;
+    place-items: center;
 }
-
-.img1  {
-    display: flex;
-    object-fit: cover;
-    height: 300px;
-    border: 1px solid transparent;
-}
-
-.img2 {
-    display: flex;
-    width: 400px;
-    height: 300px;
-    border: 1px solid transparent;
-}
-
 
 @media (max-width: 380px) {
     a.navbar-brand {

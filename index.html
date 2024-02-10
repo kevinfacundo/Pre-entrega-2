@@ -1,63 +1,101 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>BEBEDORES ENTRENADOS</title>
 </head>
-<body >
 
+<body class="body">
 
-    <nav class="navbar navbar-expand-sm sticky-top bg-success bg-gradient">
-        <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">BEBEDORES ENTRENADOS</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03" >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/gallery.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="pages/contact.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="pages/aboutUs.html">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="pages/eShop.html">Compras</a>
-            </li>
-        </ul>
-        </div>
+    <nav class="navbar navbar-expand-sm sticky-top bg-dark ">
+        <div class="container-fluid ">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-light " href="index.html">BEBEDORES ENTRENADOS</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="pages/gallery.html">Galeria</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" href="pages/contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="pages/aboutUs.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item__compras">
+                        <a class="nav-link active text-light" href="pages/eShop.html">Compras</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
-    <section class="section">
-        <div class="img1"><img src="assets/images/photo-1663738797534-d9c327516967.avif" alt="bebidas alcoholicas">
+    <section class="carrusel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/images/360_F_433361452_bwuYn79oAdKf4bEpvvgpYTy6Ka0kuflM.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/images/copa-coctel-aromatica-lista-ser-servida_23-2148617680.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/deliciosa-bebida-limon-hielo_23-2148751853.avif" class="d-block w-10000000" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="assets/images/delicioso-te-helado_144627-27220.avif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/long-island-ice-tea-mojito-cocteles-laguna-azul-studio-disparo-sobre-fondo-negro_220507-20943.avif" class="d-block w-100" alt="...">
+                </div><div class="carousel-item">
+                    <img src="assets/images/verter-vino-tinto-copa_93675-135827.avif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/deliciosa-bebida-limon-hielo_23-2148751853.avif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-        <div class="img2"><img src="assets/images/360_F_433361452_bwuYn79oAdKf4bEpvvgpYTy6Ka0kuflM.jpg" alt="fernet con Coca">
-        </div>
-        
     </section>
 
+    <main class="main">
 
-    <h2>Bajá y escaviate!</h2>
+        <h2>Bajá y escaviate!</h2>
 
-    <ul>
-        <li>Bebida Blanca</li>
-        <li>Aperitivos</li>
-        <li>Cervezas</li>
-        <li>Sin alcohol</li>
-    </ul>
-    <ol>
-        <h3>Más vendidos</h3>
-        <li>Bombay</li>
-        <li>Cerveza IPA</li>
-        <li>Fernet Branca + Coca 2.25</li>
-    </ol>
+        <ul>
+            <li>Bebida Blanca</li>
+            <li>Aperitivos</li>
+            <li>Cervezas</li>
+            <li>Sin alcohol</li>
+        </ul>
+        <ol>
+            <h3>Más vendidos</h3>
+            <li>Bombay</li>
+            <li>Cerveza IPA</li>
+            <li>Fernet Branca + Coca 2.25</li>
+        </ol>
+
+    </main>
+    
+
+    
 
     <footer class="footer">
         <nav>
@@ -70,6 +108,9 @@
 
 
     <!-- script de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
