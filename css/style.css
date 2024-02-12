@@ -5,14 +5,23 @@
 }
 
 .body {
-    background: linear-gradient(to right bottom, #0f0f0f, rgb(60, 54, 63));
+    background: linear-gradient(to right bottom, #0f0f0f, #3c363f);
     color: azure;
 }
+/* color dark bootstrap  212529 */
 
+.nav-link:hover{
+    background-color: #212529;
+    color: #000000;
+    border-radius: 100px;
+    box-shadow: 1px 1px #555a55 ;
+    padding-top: 10px;
+}
 
 .carrusel {
     display: flex;
     justify-content: center;
+    background-image: url(../assets/images/fondogris.avif);
 }
 
 #carouselExampleInterval{
@@ -21,13 +30,41 @@
 
 
 .d-block {
-    height: 400px;
+    height: 380px;
     width: 100%;
 }
 
-.main {
+.titulo {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/fondogris2.jpg);
+}
+
+.listas {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
+    font-size: larger;
+    list-style: none;
+    background-image: url(../assets/images/fondogris.avif);
+    background-color: #212529;
+
+}
+
+.footer__ul {
+    list-style: none;
+}
+
+.footer__a {
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+
+.footer__a:hover {
+    padding-left: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px #555a55 ;
 }
 
 @media (max-width: 380px) {
